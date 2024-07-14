@@ -48,10 +48,12 @@ self.addEventListener("install", (event) => {
       .open("v1")
       .then((cache) =>
         cache.addAll([
+          /*
           "/molky/",
           "/molky/index.html",
           "/molky/index.js",
           "/molky/style.css"
+          */
         ]),
       ),
   );
