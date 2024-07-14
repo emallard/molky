@@ -1,0 +1,17 @@
+{
+    "lang": "en-us",
+    "name": "The Lost molky",
+    "short_name": "molky",
+    "description": "Etienne you are so awesome!!",
+    "start_url": "/molky/",
+    "background_color": "#ffffff",
+    "theme_color": "#2f3d58",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/molky/molky512.png",
+            "sizes": "512x512"
+        }
+    ]
+}

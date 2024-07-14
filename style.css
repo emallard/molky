@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+}
+
+button {
+    border-color: white;
+    color: white;
+    background-color: green;
+    font-size: 20px;
+}
+
+.pagePlayers {
+    button {
+        width: 100%;
+    }
+}
+
+.pageGame {
+    width: 100%;
+
+    .playerListItem {
+        width: 100%;
+
+        .score {
+            float: right;
+        }
+
+        &.current {
+            border: solid 1px red;
+        }
+    }
+
+    .buttons {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        button {
+            font-size: 30px;
+        }
+
+        .rowGrid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        }
+
+        .row2 {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+
+
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senja's Molky</title>
+    <link rel="manifest" href="/molky/manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+</body>
+
+<script src="index.js"></script>
+<script src="pagePlayers.js"></script>
+<script src="pageGame.js"></script>
+<script>
+    pagePlayers();
+
+    if (location.search == '?test') {
+        pagePlayers_addPlayer('Senja');
+        pagePlayers_addPlayer('Ceri');
+        pagePlayers_addPlayer('Etienne');
+        pagePlayers_addPlayer('Nico');
+    }
+</script>
+
+</html>
