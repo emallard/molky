@@ -1,12 +1,12 @@
 {
     "lang": "en-us",
     "name": "Senja's Mollky",
-    "short_name": "SenjasMollky",
+    "short_name": "Senja's Mollky",
     "description": "Etienne you are so awesome!!",
     "start_url": "/molky/",
     "background_color": "#ffffff",
     "theme_color": "#2f3d58",
-    "orientation": "any",
+    "orientation": "portrait",
     "display": "standalone",
     "icons": [
         {
